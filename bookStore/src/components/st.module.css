@@ -1,0 +1,105 @@
+
+.main{
+    background-color:rgb(214, 235, 254) ;
+    margin-left: 75vh;
+    margin-top: 16vh;
+    width: 40vh;
+    padding: 4vh;
+    border-radius: 0.6vh;
+    font-family: 'Antic Slab', serif;
+}
+
+form{
+    text-align: left;
+}
+
+.in{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    outline:none;
+    border: 3px solid transparent;
+    border-radius: 0.6vh;
+    font-size: 13px;
+}
+
+.l{
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.805);
+}
+
+.but{
+    padding:1vh;
+    width: 10vh;
+    border-radius: 0.7vh;
+    border:3px solid rgb(72, 152, 222);
+    background-color: white;
+    font-weight: 500;
+}
+
+.buts{
+    padding:1vh;
+    width: 10vh;
+    border-radius: 0.7vh;
+    border: transparent;
+    background-color:white;
+    color: black;
+    font-weight: 500;
+    border: 3px solid rgba(153, 205, 50, 0.341);
+}
+.buts:hover{
+    background-color: yellowgreen;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.in:hover{
+    border: 3px solid rgb(72, 152, 222);
+    transition: 0.5s;
+}
+
+.in:focus{
+    border: 2px solid yellowgreen;
+    transition: 1s;
+    background-color: rgba(153, 205, 50, 0.341);
+}
+
+.but:hover{
+    background-color: rgb(72, 152, 222);
+    color: white;
+    transition: 0.5s;
+}
+
+.mes{
+    color: red;
+    font-size: 13px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.sk{
+    padding-left: 9vh;
+    margin-top: 3vh;
+    color:#0B0500;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Antic Slab', serif;
+}
+.al{
+    color: #00A878;
+}
+
+.mn{
+    color: black;
+    text-decoration: wavy;
+}
